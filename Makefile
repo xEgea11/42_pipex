@@ -22,11 +22,11 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra 
 
 
-$(NAME) : $(SRC_OBJS) $(LIBFT)
+$(NAME) : $(OBJ_DIR) $(SRC_OBJS) $(LIBFT)
 	@$(CC) $(CFLAGS) $(SRC_OBJS)  -o $(NAME) $(LIBFT)
 	
 
-$(SRC_DIR)%.o : $(SRC_DIR)%.c $(HEADER) 
+$(SRC_DIR)%.o : $(SRC_DIR)%.c 
 	@$(CC) $(CFLAGS) -c $< -o $@ 
 
 $(LIBFT) :
