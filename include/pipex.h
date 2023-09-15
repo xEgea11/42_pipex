@@ -6,13 +6,13 @@
 /*   By: regea-go <regea-go@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 17:39:29 by regea-go          #+#    #+#             */
-/*   Updated: 2023/08/30 16:04:14 by regea-go         ###   ########.fr       */
+/*   Updated: 2023/09/15 10:59:10 by regea-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PIPEX_H
 # define PIPEX_H
-# include "../libft/libft.h"
+# include "../libft/include/libft.h"
 # include <sys/types.h>
 # include <errno.h>
 # include <sys/wait.h>
